@@ -8,7 +8,7 @@ const App = () => {
   }, []);
   const getDeviceToken = async () => {
     let token = await messaging().getToken();
-    console.log(token);
+    // console.log(token);
   };
   useEffect(() => {
     handleNotification();
@@ -27,7 +27,7 @@ const App = () => {
       name: 'COMMENTS',
       groupId: 'YOUTUBE',
     });
-    await notifee.createChannel({
+    await notifee.createChannel({ 
       id: 'SUBSCRIBE',
       name: 'SUBSCRIBE',
       groupId: 'YOUTUBE',
@@ -40,6 +40,7 @@ const App = () => {
       body: 'Changed',
       android: {
         channelId: 'SUBSCRIBE',
+        smallIcon: 'ic_stat_social_notifications',
       },
     });
   }
@@ -145,5 +146,4 @@ const styles = StyleSheet.create({});
   //     },
   //   });
   // }
-  // i pushed a new code nernfevfnrbvrebfebrwhvfwhvfbfrwb
-// chaning the bbuebferfewrwv
+  // testing my merge
