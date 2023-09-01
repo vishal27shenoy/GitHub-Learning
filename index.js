@@ -1,7 +1,6 @@
 /**
  * @format
  */
-
 import {AppRegistry} from 'react-native';
 import App from './App';
 import messaging from '@react-native-firebase/messaging';

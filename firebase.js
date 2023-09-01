@@ -1,5 +1,3 @@
-
-
 export const firebaseConfig = {
   apiKey: 'AIzaSyCIPjpVtbk1KJsjo2YrTkBHx743flHMhFg',
   authDomain: 'react-native-notificatio-adbe2.firebaseapp.com',
