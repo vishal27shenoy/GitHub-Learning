@@ -60,7 +60,7 @@ const App = () => {
     <View
       style={{ justifyContent: 'center', alignItems: 'center', height: '100%', gap: 50 }}>
       <Pressable onPress={() => SUBSCRIBE()}>
-        <Text>BEFORE REVERT ING vbhfjdbvjrhdbv jhrdsfbj</Text>
+        <Text>BEFORE REVERT ING vbhfjdbvjrhdbv jhrdsfbj vishal</Text>
       </Pressable>
       <Pressable onPress={() => COMMENTS()}>
         <Text>COMMENTS</Text>
