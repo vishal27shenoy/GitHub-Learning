@@ -1,6 +1,6 @@
-import { Pressable, StyleSheet, Text, View,Alert } from 'react-native'
+import { Pressable, StyleSheet, Text, View, Alert } from 'react-native'
 import React, { useEffect } from 'react'
-import notifee, {EventType} from '@notifee/react-native';
+import notifee, { EventType } from '@notifee/react-native';
 import messaging from '@react-native-firebase/messaging';
 const App = () => {
   useEffect(() => {
@@ -27,7 +27,7 @@ const App = () => {
       name: 'COMMENTS',
       groupId: 'YOUTUBE',
     });
-    await notifee.createChannel({ 
+    await notifee.createChannel({
       id: 'SUBSCRIBE',
       name: 'SUBSCRIBE',
       groupId: 'YOUTUBE',
@@ -58,9 +58,9 @@ const App = () => {
   }
   return (
     <View
-      style={{justifyContent: 'center', alignItems: 'center', height: '100%',gap:50}}>
+      style={{ justifyContent: 'center', alignItems: 'center', height: '100%', gap: 50 }}>
       <Pressable onPress={() => SUBSCRIBE()}>
-        <Text>BEFORE REVERT ING</Text>
+        <Text>BEFORE REVERT ING vbhfjdbvjrhdbv jhrdsfbj</Text>
       </Pressable>
       <Pressable onPress={() => COMMENTS()}>
         <Text>COMMENTS</Text>
@@ -72,7 +72,6 @@ const App = () => {
 export default App
 
 const styles = StyleSheet.create({});
-<<<<<<< HEAD
 // FCM KEY
 //diIn5-EpRKOY3LQbSOclZO:APA91bGQUo_UxPQF4h1nMohaDI9z9OlfFk5MxHANkbMSvm5zRze-iB6RkAvnzqcYpF5TFPqTmD3YMGoJeNyTb7NbeOSmOZYjVTJFAcZkR1BnfU04IurulbD0tXhUcn6WQVvAua-ErXfg
 // SERVER KEY
@@ -148,5 +147,3 @@ const styles = StyleSheet.create({});
   //   });
   // }
   //testing revert
-=======
->>>>>>> a546391292d5b9146e5c9c0e98bddb0be2c51b04
